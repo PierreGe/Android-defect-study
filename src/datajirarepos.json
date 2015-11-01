@@ -1,0 +1,132 @@
+{
+  "Mirakel-Dashclock": {
+    "url": "https://f-droid.org/repository/browse/?fdid=de.azapps.mirakel.dashclock&fdpage=29",
+    "src": "https://github.com/MirakelX/mirakel-android",
+    "issue": "https://mirakel.atlassian.net/issues"
+  },
+  "MAXS Module Shell": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.shell&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module LocationFine": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.locationfine&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module SmsRead": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.smsread&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module SmsSend": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.smssend&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module FileWrite": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.filewrite&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "Mirakel": {
+    "url": "https://f-droid.org/repository/browse/?fdid=de.azapps.mirakelandroid&fdpage=29",
+    "src": "https://github.com/MirakelX/mirakel-android",
+    "issue": "https://mirakel.atlassian.net/issues"
+  },
+  "MAXS Module ContactsRead": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.contactsread&fdpage=27",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module WifiChange": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.wifichange&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module PhonestateRead": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.phonestateread&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module Clipboard": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.clipboard&fdpage=27",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module Notification": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.notification&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module NFC": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.nfc&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module Bluetooth": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.bluetooth&fdpage=27",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module AlarmSet": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.alarmset&fdpage=27",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module BluetoothAdmin": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.bluetoothadmin&fdpage=27",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module Misc": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.misc&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module FileRead": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.fileread&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Transport XMPP": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.transport.xmpp&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Main": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.main&fdpage=27",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module WifiAccess": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.wifiaccess&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module Ringermode": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.ringermode&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "Track Work Time": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.zephyrsoft.trackworktime&fdpage=50",
+    "src": "https://dev.zephyrsoft.org/svn/projects/trackworktime/trunk",
+    "issue": "https://dev.zephyrsoft.org/jira/browse/TWT"
+  },
+  "MAXS Module SmsNotify": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.smsnotify&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "MAXS Module SmsWrite": {
+    "url": "https://f-droid.org/repository/browse/?fdid=org.projectmaxs.module.smswrite&fdpage=28",
+    "src": "http://projectmaxs.org/source",
+    "issue": "http://projectmaxs.org/issues"
+  },
+  "Impeller": {
+    "url": "https://f-droid.org/repository/browse/?fdid=eu.e43.impeller&fdpage=23",
+    "src": "https://github.com/oshepherd/Impeller",
+    "issue": "https://e43oss.atlassian.net/browse/IMP"
+  }
+}
