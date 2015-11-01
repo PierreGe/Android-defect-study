@@ -2,6 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import copy
 
 
 
@@ -44,10 +45,46 @@ def getDict():
 
     return result
 
-def main():
+def fdroidjson():
     data = getDict()
-    with open('datafdroid.json', 'w') as fp:
+    with open('datafdroido.json', 'w') as fp:
         json.dump(data, fp)
 
+def githubjson():
+    with open('datafdroid.json') as data_file:
+        data = json.load(data_file)
+
+    result = {}
+    for key in data:
+        if "src" in data[key] and "issue" in data[key]:
+            if "github.com" in data[key]["src"] and "github.com" in data[key]["issue"]:
+                result[key] = copy.deepcopy(data[key])
+
+    with open('datagithubrepos.json', 'w') as fp:
+        json.dump(result, fp)
+
+def jirajson():
+    with open('datafdroid.json') as data_file:
+        data = json.load(data_file)
+
+    result = {}
+    i = 0
+    for key in data:
+        i+=1
+        print(str(i) + "/" + str(len(data)))
+        if "src" in data[key] and "issue" in data[key]:
+            if not ("github.com" in data[key]["src"] and "github.com" in data[key]["issue"]):
+                try :
+                    page = requests.get(data[key]["issue"])
+                    if len([i for i in range(len(page.text)) if page.text.startswith('jira', i)]) > 10:
+                        result[key] = copy.deepcopy(data[key])
+                except:
+                    pass
+
+    with open('datajirarepos.json', 'w') as fp:
+        json.dump(result, fp)
+
 if __name__ == "__main__":
-    main()
+    #fdroidjson()
+    #githubjson()
+    jirajson()
