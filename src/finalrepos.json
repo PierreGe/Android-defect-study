@@ -1,0 +1,86 @@
+{
+  "OpenKeychain": {
+    "number-issue": 1063,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.sufficientlysecure.keychain&fdpage=35",
+    "issue": "https://github.com/openpgp-keychain/openpgp-keychain/issues",
+    "src": "https://github.com/openpgp-keychain/openpgp-keychain"
+  },
+  "andFHEM": {
+    "number-issue": 918,
+    "url": "https://f-droid.org/repository/browse/?fdid=li.klass.fhem&fdpage=3",
+    "issue": "https://github.com/klassm/andFHEM/issues",
+    "src": "https://github.com/klassm/andFHEM"
+  },
+  "MPDroid": {
+    "number-issue": 501,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.namelessdev.mpdroid&fdpage=31",
+    "issue": "https://github.com/abarisain/dmix/issues",
+    "src": "https://github.com/abarisain/dmix"
+  },
+  "OsmAnd~": {
+    "number-issue": 564,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.osmand.plus&fdpage=36",
+    "issue": "https://github.com/osmandapp/Osmand/issues",
+    "src": "https://github.com/osmandapp/Osmand"
+  },
+  "AnkiDroid": {
+    "number-issue": 2479,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.ichi2.anki&fdpage=4",
+    "issue": "https://github.com/ankidroid/Anki-Android/issues",
+    "src": "https://github.com/ankidroid/Anki-Android"
+  },
+  "OsmAnd Contour lines": {
+    "number-issue": 564,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.osmand.srtmPlugin.paid&fdpage=36",
+    "issue": "https://github.com/osmandapp/Osmand/issues",
+    "src": "https://github.com/osmandapp/Osmand"
+  },
+  "AdAway": {
+    "number-issue": 557,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.adaway",
+    "issue": "https://github.com/Free-Software-for-Android/AdAway/issues",
+    "src": "https://github.com/Free-Software-for-Android/AdAway"
+  },
+  "ownCloud": {
+    "number-issue": 550,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.owncloud.android&fdpage=36",
+    "issue": "https://github.com/owncloud/android/issues",
+    "src": "https://github.com/owncloud/android"
+  },
+  "Conversations": {
+    "number-issue": 928,
+    "url": "https://f-droid.org/repository/browse/?fdid=eu.siacs.conversations&fdpage=11",
+    "issue": "https://github.com/siacs/Conversations/issues",
+    "src": "https://github.com/siacs/Conversations"
+  },
+  "PPSSPP": {
+    "number-issue": 3143,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.ppsspp.ppsspp&fdpage=39",
+    "issue": "https://github.com/hrydgard/ppsspp/issues",
+    "src": "https://github.com/hrydgard/ppsspp"
+  },
+  "BetterBatteryStats": {
+    "number-issue": 570,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.asksven.betterbatterystats&fdpage=7",
+    "issue": "https://github.com/asksven/BetterBatteryStats/issues",
+    "src": "https://github.com/asksven/BetterBatteryStats"
+  },
+  "AntennaPod": {
+    "number-issue": 629,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.danoeh.antennapod&fdpage=4",
+    "issue": "https://github.com/danieloeh/AntennaPod/issues",
+    "src": "https://github.com/danieloeh/AntennaPod"
+  },
+  "OsmAnd Parking": {
+    "number-issue": 564,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.osmand.parkingPlugin&fdpage=36",
+    "issue": "https://github.com/osmandapp/Osmand/issues",
+    "src": "https://github.com/osmandapp/Osmand"
+  },
+  "Mozilla Stumbler": {
+    "number-issue": 606,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.mozstumbler&fdpage=30",
+    "issue": "https://github.com/mozilla/MozStumbler/issues",
+    "src": "https://github.com/mozilla/MozStumbler"
+  }
+}
