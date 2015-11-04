@@ -4,6 +4,7 @@ import requests
 import json
 import copy
 import os
+import time
 from bs4 import BeautifulSoup
 
 class GitHubAPI():
@@ -21,6 +22,9 @@ class GitHubAPI():
             r = requests.get(url, auth=(self._user, self._password), params=payload)
         self._rateLimit = r.headers['X-RateLimit-Limit']
         self._rateRemaining = r.headers['X-RateLimit-Remaining']
+        if int(self._rateRemaining) < 10:
+            print("Going to sleep for an hour waiting for GitHub . Zzzzzzzzz")
+            time.sleep(3600)
         self._rateReset = r.headers['X-RateLimit-Reset']
         print("Rate Limit : " + self.getLimit())
         return r.text
@@ -118,11 +122,52 @@ def main():
     passord = getpass.getpass(str(user) + "'s password : ")
     api = GitHubAPI(user, passord)
 
-    url = "https://api.github.com/repos/asksven/BetterBatteryStats/issues/699/events"
+    #url = "https://api.github.com/repos/asksven/BetterBatteryStats/issues/699/events"
 
-    js = json.loads(api.get(url, {"scopes":"closed_by"}))
-    print(js)
+    #js = json.loads(api.get(url, {"scopes":"closed_by"}))
+    #print(js)
 
+    resultRL = {}
+    resultPR = {}
+
+    datafilename = 'finalrepos.json'
+    with open(datafilename) as data_file:
+        data = json.load(data_file)
+    total = 0
+
+
+    subdir = "data/"
+    for key in data:
+        repo = data[key]
+        url = repo["url"]
+        src = repo["src"]
+        issue = repo["issue"]
+        resultRL = []
+        resultPR = []
+
+        directory = subdir + key.replace(" ", "_")
+        directory += "/issues/"
+
+        issuefilename = 'closedissues.json'
+        with open(directory + issuefilename) as data_file:
+            issuedata = json.load(data_file)
+
+        for issue in issuedata:
+            js = json.loads(api.get(issue["events_url"]))
+            if "pull_request":
+                resultPR += js
+            else:
+                resultRL += js
+
+        filenameRI = "closedrealissues.json"
+        with open(directory + filenameRI , 'w') as fp:
+            json.dump(resultRL, fp)
+            print("-"*100)
+            print("DONE FOR A FILE")
+
+        filenamePR = "closedrealissues.json"
+        with open(directory + filenamePR , 'w') as fp:
+            json.dump(resultPR, fp)
 
 
 if __name__ == "__main__":
