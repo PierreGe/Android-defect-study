@@ -154,7 +154,7 @@ def main():
 
         for issue in issuedata:
             js = json.loads(api.get(issue["events_url"]))
-            if "pull_request":
+            if "pull_request" in js:
                 resultPR += js
             else:
                 resultRL += js
@@ -165,7 +165,7 @@ def main():
             print("-"*100)
             print("DONE FOR A FILE")
 
-        filenamePR = "closedrealissues.json"
+        filenamePR = "closedpullrequestissues.json"
         with open(directory + filenamePR , 'w') as fp:
             json.dump(resultPR, fp)
 
