@@ -3,6 +3,7 @@ import getpass
 import requests
 import json
 import copy
+import os
 from bs4 import BeautifulSoup
 
 class GitHubAPI():
@@ -13,8 +14,11 @@ class GitHubAPI():
         self._rateRemaining = None
         self._rateReset = None
 
-    def get(self, url):
-        r = requests.get(url, auth=(self._user, self._password))
+    def get(self, url , payload = None):
+        if not payload:
+            r = requests.get(url, auth=(self._user, self._password))
+        else:
+            r = requests.get(url, auth=(self._user, self._password), params=payload)
         self._rateLimit = r.headers['X-RateLimit-Limit']
         self._rateRemaining = r.headers['X-RateLimit-Remaining']
         self._rateReset = r.headers['X-RateLimit-Reset']
@@ -24,16 +28,102 @@ class GitHubAPI():
     def getLimit(self):
         return (self._rateRemaining + "/" + self._rateLimit)
 
-def main():
+    def getAllIssue(self,url):
+        r = requests.get(url, auth=(self._user, self._password))
+        self._rateLimit = r.headers['X-RateLimit-Limit']
+        self._rateRemaining = r.headers['X-RateLimit-Remaining']
+        self._rateReset = r.headers['X-RateLimit-Reset']
+        print("Rate Limit : " + self.getLimit())
+        res = json.loads(r.text)
+        nextp,last = r.headers["Link"].split(",")
+        nexturl = nextp.split(";")[0].strip().replace("<","").replace(">","")
+        lasturl = last.split(";")[0].strip().replace("<","").replace(">","")
+        print(r.headers["Link"])
+        print(nexturl)
+        print(lasturl)
+
+        while nexturl != lasturl:
+            r = requests.get(nexturl, auth=(self._user, self._password))
+            self._rateLimit = r.headers['X-RateLimit-Limit']
+            self._rateRemaining = r.headers['X-RateLimit-Remaining']
+            self._rateReset = r.headers['X-RateLimit-Reset']
+            print("Rate Limit : " + self.getLimit())
+            res += json.loads(r.text)
+            print(r.headers["Link"])
+            nextp,last,first,prev = r.headers["Link"].split(",")
+            nexturl = nextp.split(";")[0].strip().replace("<","").replace(">","")
+            lasturl = last.split(";")[0].strip().replace("<","").replace(">","")
+            print(r.headers["Link"])
+            print(nexturl)
+            print(lasturl)
+
+
+        r = requests.get(nexturl, auth=(self._user, self._password))
+        self._rateLimit = r.headers['X-RateLimit-Limit']
+        self._rateRemaining = r.headers['X-RateLimit-Remaining']
+        self._rateReset = r.headers['X-RateLimit-Reset']
+        print("Rate Limit : " + self.getLimit())
+        res += json.loads(r.text)
+        print(r.headers["Link"])
+        first,prev = r.headers["Link"].split(",")
+        nexturl = nextp.split(";")[0].strip().replace("<","").replace(">","")
+        lasturl = last.split(";")[0].strip().replace("<","").replace(">","")
+        print(r.headers["Link"])
+        print(nexturl)
+        print(lasturl)
+
+        return res
+
+
+
+def MakeIssuesFile():
     user = "PierreGe"
     passord = getpass.getpass(str(user) + "'s password : ")
     api = GitHubAPI(user, passord)
-    baseUrl = ""
-    js = json.loads(api.get(baseUrl))
 
 
+    filename = 'finalrepos.json'
+    with open(filename) as data_file:
+        data = json.load(data_file)
+
+    subdir = "data/"
+    for key in data:
+        repo = data[key]
+        url = repo["url"]
+        src = repo["src"]
+        issue = repo["issue"]
+
+        directory = subdir + key.replace(" ", "_")
+        directory += "/issues/"
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
+        baseUrl = issue
+        baseUrl = baseUrl.replace("https://github.com/", "https://api.github.com/repos/")
+        #baseUrl += "?state=closed"
+        print(baseUrl)
+
+        result = api.getAllIssue(baseUrl)
+        print(len(result))
+        print("_"*100)
+
+        filename = "openissues.json"
+        with open(directory + filename , 'w') as fp:
+            json.dump(result, fp)
+
+
+def main():
+
+    user = "PierreGe"
+    passord = getpass.getpass(str(user) + "'s password : ")
+    api = GitHubAPI(user, passord)
+
+    url = "https://api.github.com/repos/asksven/BetterBatteryStats/issues/699/events"
+
+    js = json.loads(api.get(url, {"scopes":"closed_by"}))
+    print(js)
 
 
 
 if __name__ == "__main__":
-    selectMoreThanOnePageIssue()
+    main()

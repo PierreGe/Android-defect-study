@@ -1,0 +1,1454 @@
+{
+  "SoundWaves": {
+    "issue": "https://github.com/bottiger/SoundWaves/issues",
+    "src": "https://github.com/bottiger/SoundWaves",
+    "number-issue": 49,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.bottiger.podcast&fdpage=46"
+  },
+  "NFCard": {
+    "issue": "https://github.com/sinpolib/nfcard/issues",
+    "src": "https://github.com/sinpolib/nfcard",
+    "number-issue": 30,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.sinpo.xnfc&fdpage=33"
+  },
+  "ConnectBot": {
+    "issue": "https://github.com/connectbot/connectbot/issues",
+    "src": "https://github.com/connectbot/connectbot",
+    "number-issue": 99,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.connectbot&fdpage=11"
+  },
+  "Mifare Classic Tool": {
+    "issue": "https://github.com/ikarus23/MifareClassicTool/issues",
+    "src": "https://github.com/ikarus23/MifareClassicTool",
+    "number-issue": 44,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.syss.MifareClassicTool&fdpage=29"
+  },
+  "OpenDocument Reader": {
+    "issue": "https://github.com/TomTasche/OpenDocument.droid/issues",
+    "src": "https://github.com/TomTasche/OpenDocument.droid",
+    "number-issue": 53,
+    "url": "https://f-droid.org/repository/browse/?fdid=at.tomtasche.reader&fdpage=35"
+  },
+  "Overchan": {
+    "issue": "https://github.com/miku-nyan/Overchan-Android/issues",
+    "src": "https://github.com/miku-nyan/Overchan-Android",
+    "number-issue": 24,
+    "url": "https://f-droid.org/repository/browse/?fdid=nya.miku.wishmaster&fdpage=36"
+  },
+  "Atarashii!": {
+    "issue": "https://github.com/AnimaSA/Atarashii/issues",
+    "src": "https://github.com/AnimaSA/Atarashii",
+    "number-issue": 127,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.somethingdreadful.MAL&fdpage=5"
+  },
+  "Tasks": {
+    "issue": "https://github.com/abaker/tasks/issues",
+    "src": "https://github.com/abaker/tasks",
+    "number-issue": 168,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.tasks&fdpage=48"
+  },
+  "falling for reddit": {
+    "issue": "https://github.com/btmura/rbb/issues",
+    "src": "https://github.com/btmura/rbb",
+    "number-issue": 277,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.btmura.android.reddit&fdpage=17"
+  },
+  "Vlille Checker": {
+    "issue": "https://github.com/ojacquemart/vlilleChecker/issues",
+    "src": "https://github.com/ojacquemart/vlilleChecker",
+    "number-issue": 91,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.vlille.checker&fdpage=52"
+  },
+  "Pretty Good Music Player Launcher Mode": {
+    "issue": "https://github.com/smithdtyler/prettygoodmusicplayer/issues",
+    "src": "https://github.com/smithdtyler/prettygoodmusicplayer/tree/launchermode",
+    "number-issue": 55,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.smithdtyler.prettygoodmusicplayer.launchermode&fdpage=39"
+  },
+  "Testnet3": {
+    "issue": "https://github.com/schildbach/bitcoin-wallet/issues",
+    "src": "https://github.com/schildbach/bitcoin-wallet",
+    "number-issue": 175,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.schildbach.wallet_test&fdpage=49"
+  },
+  "UberSync for Facebook": {
+    "issue": "https://github.com/loadrunner/Facebook-Contact-Sync/issues",
+    "src": "https://github.com/loadrunner/Facebook-Contact-Sync",
+    "number-issue": 43,
+    "url": "https://f-droid.org/repository/browse/?fdid=ro.weednet.contactssync&fdpage=51"
+  },
+  "FBReader": {
+    "issue": "https://github.com/geometer/FBReaderJ/issues",
+    "src": "https://github.com/geometer/FBReaderJ",
+    "number-issue": 59,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.geometerplus.zlibrary.ui.android&fdpage=17"
+  },
+  "yaxim": {
+    "issue": "https://github.com/pfleidi/yaxim/issues",
+    "src": "https://github.com/ge0rg/yaxim",
+    "number-issue": 119,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.yaxim.androidclient&fdpage=55"
+  },
+  "PageTurner": {
+    "issue": "https://github.com/NightWhistler/PageTurner/issues",
+    "src": "https://github.com/NightWhistler/PageTurner",
+    "number-issue": 404,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.nightwhistler.pageturner&fdpage=36"
+  },
+  "OsmAnd Parking": {
+    "issue": "https://github.com/osmandapp/Osmand/issues",
+    "src": "https://github.com/osmandapp/Osmand",
+    "number-issue": 564,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.osmand.parkingPlugin&fdpage=36"
+  },
+  "Sismics Reader": {
+    "issue": "https://github.com/sismics/reader/issues",
+    "src": "https://github.com/sismics/reader",
+    "number-issue": 101,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.sismics.reader&fdpage=45"
+  },
+  "oandbackup": {
+    "issue": "https://github.com/jensstein/oandbackup/issues",
+    "src": "https://github.com/jensstein/oandbackup",
+    "number-issue": 55,
+    "url": "https://f-droid.org/repository/browse/?fdid=dk.jens.backup&fdpage=34"
+  },
+  "Document Viewer Font Pack": {
+    "issue": "https://github.com/SufficientlySecure/document-viewer/issues",
+    "src": "https://github.com/SufficientlySecure/document-viewer-fontpack",
+    "number-issue": 54,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.sufficientlysecure.viewer.fontpack&fdpage=14"
+  },
+  "\u00b5g UnifiedNlp for devices with GAPPS": {
+    "issue": "https://github.com/microg/android_packages_apps_UnifiedNlp/issues",
+    "src": "https://github.com/microg/android_packages_apps_UnifiedNlp",
+    "number-issue": 28,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.microg.nlp&fdpage=56"
+  },
+  "SafeSlinger Exchange for Security Developers": {
+    "issue": "https://github.com/SafeSlingerProject/SafeSlinger-Android/issues",
+    "src": "https://github.com/SafeSlingerProject/SafeSlinger-Android",
+    "number-issue": 109,
+    "url": "https://f-droid.org/repository/browse/?fdid=edu.cmu.cylab.starslinger.demo&fdpage=42"
+  },
+  "weechat": {
+    "issue": "https://github.com/ubergeek42/weechat-android/issues",
+    "src": "https://github.com/ubergeek42/weechat-android",
+    "number-issue": 111,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.ubergeek42.WeechatAndroid&fdpage=53"
+  },
+  "AntennaPod": {
+    "issue": "https://github.com/danieloeh/AntennaPod/issues",
+    "src": "https://github.com/danieloeh/AntennaPod",
+    "number-issue": 629,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.danoeh.antennapod&fdpage=4"
+  },
+  "reicast": {
+    "issue": "https://github.com/reicast/reicast-emulator/issues",
+    "src": "https://github.com/reicast/reicast-emulator",
+    "number-issue": 272,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.reicast.emulator&fdpage=41"
+  },
+  "ownCloud News Reader": {
+    "issue": "https://github.com/owncloud/News-Android-App/issues",
+    "src": "https://github.com/owncloud/News-Android-App",
+    "number-issue": 326,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.luhmer.owncloudnewsreader&fdpage=36"
+  },
+  "\u00b5g UnifiedNlp for GAPPS-free devices": {
+    "issue": "https://github.com/microg/android_packages_apps_UnifiedNlp/issues",
+    "src": "https://github.com/microg/android_packages_apps_UnifiedNlp",
+    "number-issue": 28,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.google.android.gms&fdpage=56"
+  },
+  "MTG Familiar": {
+    "issue": "https://github.com/AEFeinstein/mtg-familiar/issues",
+    "src": "https://github.com/AEFeinstein/mtg-familiar",
+    "number-issue": 60,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.gelakinetic.mtgfam&fdpage=31"
+  },
+  "AFWall+": {
+    "issue": "https://github.com/ukanth/afwall/issues",
+    "src": "https://github.com/ukanth/afwall",
+    "number-issue": 227,
+    "url": "https://f-droid.org/repository/browse/?fdid=dev.ukanth.ufirewall&fdpage=2"
+  },
+  "Sage": {
+    "issue": "https://github.com/sagemath/android/issues",
+    "src": "https://github.com/sagemath/android",
+    "number-issue": 45,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.sagemath.droid&fdpage=42"
+  },
+  "DSub": {
+    "issue": "https://github.com/daneren2005/Subsonic/issues",
+    "src": "https://github.com/daneren2005/Subsonic",
+    "number-issue": 493,
+    "url": "https://f-droid.org/repository/browse/?fdid=github.daneren2005.dsub&fdpage=15"
+  },
+  "Numix Calculator": {
+    "issue": "https://github.com/numixproject/com.numix.calculator/issues",
+    "src": "https://github.com/numixproject/com.numix.calculator",
+    "number-issue": 36,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.numix.calculator&fdpage=33"
+  },
+  "Kore": {
+    "issue": "https://github.com/xbmc/Kore/issues",
+    "src": "https://github.com/xbmc/Kore",
+    "number-issue": 51,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.xbmc.kore&fdpage=25"
+  },
+  "Simple Last.fm Scrobbler": {
+    "issue": "https://github.com/tgwizard/sls/issues",
+    "src": "https://github.com/tgwizard/sls",
+    "number-issue": 114,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.adam.aslfms&fdpage=45"
+  },
+  "RedReader Beta": {
+    "issue": "https://github.com/QuantumBadger/RedReader/issues",
+    "src": "https://github.com/QuantumBadger/RedReader",
+    "number-issue": 69,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.quantumbadger.redreader&fdpage=41"
+  },
+  "Short URL Evaluator": {
+    "issue": "https://github.com/nicolassmith/urlevaluator/issues",
+    "src": "https://github.com/nicolassmith/urlevaluator",
+    "number-issue": 25,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.github.nicolassmith.urlevaluator&fdpage=44"
+  },
+  "Chess": {
+    "issue": "https://github.com/jcarolus/android-chess/issues",
+    "src": "https://github.com/jcarolus/android-chess",
+    "number-issue": 10,
+    "url": "https://f-droid.org/repository/browse/?fdid=jwtc.android.chess&fdpage=10"
+  },
+  "Squeezer": {
+    "issue": "https://github.com/nikclayton/android-squeezer/issues",
+    "src": "https://github.com/nikclayton/android-squeezer",
+    "number-issue": 54,
+    "url": "https://f-droid.org/repository/browse/?fdid=uk.org.ngo.squeezer&fdpage=47"
+  },
+  "Android IMSI-Catcher Detector": {
+    "issue": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/issues",
+    "src": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector",
+    "number-issue": 331,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.SecUpwN.AIMSICD&fdpage=3"
+  },
+  "Screen Notifications": {
+    "issue": "https://github.com/lkorth/screen-notifications/issues",
+    "src": "https://github.com/lkorth/screen-notifications",
+    "number-issue": 37,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.lukekorth.screennotifications&fdpage=43"
+  },
+  "Zandy": {
+    "issue": "https://github.com/ajlyon/zandy/issues",
+    "src": "https://github.com/ajlyon/zandy",
+    "number-issue": 93,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.gimranov.zandy.app&fdpage=56"
+  },
+  "SGit": {
+    "issue": "https://github.com/sheimi/SGit/issues",
+    "src": "https://github.com/sheimi/SGit",
+    "number-issue": 88,
+    "url": "https://f-droid.org/repository/browse/?fdid=me.sheimi.sgit&fdpage=44"
+  },
+  "spaRSS": {
+    "issue": "https://github.com/Etuldan/spaRSS/issues",
+    "src": "https://github.com/Etuldan/spaRSS",
+    "number-issue": 42,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.etuldan.sparss.floss&fdpage=46"
+  },
+  "Transports Bordeaux": {
+    "issue": "https://github.com/ybonnel/TransportsRennes/issues",
+    "src": "https://github.com/ybonnel/TransportsRennes",
+    "number-issue": 95,
+    "url": "https://f-droid.org/repository/browse/?fdid=fr.ybo.transportsbordeaux&fdpage=50"
+  },
+  "GreenBits": {
+    "issue": "https://github.com/greenaddress/GreenBits/issues",
+    "src": "https://github.com/greenaddress/GreenBits",
+    "number-issue": 4,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.greenaddress.greenbits_android_wallet&fdpage=21"
+  },
+  "wallabag": {
+    "issue": "https://github.com/wallabag/android-app/issues",
+    "src": "https://github.com/wallabag/android-app",
+    "number-issue": 12,
+    "url": "https://f-droid.org/repository/browse/?fdid=fr.gaulupeau.apps.InThePoche&fdpage=53"
+  },
+  "QKSMS": {
+    "issue": "https://github.com/qklabs/qksms/issues",
+    "src": "https://github.com/qklabs/qksms",
+    "number-issue": 90,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.moez.QKSMS&fdpage=40"
+  },
+  "ApkTrack": {
+    "issue": "https://github.com/JusticeRage/ApkTrack/issues",
+    "src": "https://github.com/JusticeRage/ApkTrack",
+    "number-issue": 25,
+    "url": "https://f-droid.org/repository/browse/?fdid=fr.kwiatkowski.ApkTrack&fdpage=5"
+  },
+  "Calendar Widget": {
+    "issue": "https://github.com/plusonelabs/calendar-widget/issues",
+    "src": "https://github.com/plusonelabs/calendar-widget",
+    "number-issue": 107,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.plusonelabs.calendar&fdpage=9"
+  },
+  "AndStatus": {
+    "issue": "https://github.com/andstatus/andstatus/issues",
+    "src": "https://github.com/andstatus/andstatus",
+    "number-issue": 201,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.andstatus.app&fdpage=3"
+  },
+  "Tickmate": {
+    "issue": "https://github.com/lordi/tickmate/issues",
+    "src": "https://github.com/lordi/tickmate",
+    "number-issue": 27,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.smasi.tickmate&fdpage=49"
+  },
+  "FTP Server": {
+    "issue": "https://github.com/ppareit/swiftp/issues",
+    "src": "https://github.com/ppareit/swiftp",
+    "number-issue": 43,
+    "url": "https://f-droid.org/repository/browse/?fdid=be.ppareit.swiftp_free&fdpage=19"
+  },
+  "OpenVPN for Android": {
+    "issue": "https://github.com/schwabe/ics-openvpn/issues",
+    "src": "https://github.com/schwabe/ics-openvpn",
+    "number-issue": 392,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.blinkt.openvpn&fdpage=35"
+  },
+  "Flym": {
+    "issue": "https://github.com/FredJul/Flym/issues",
+    "src": "https://github.com/FredJul/Flym",
+    "number-issue": 30,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.fred.feedex&fdpage=18"
+  },
+  "HackWinds": {
+    "issue": "https://github.com/mpiannucci/HackWinds/issues",
+    "src": "https://github.com/mpiannucci/HackWinds",
+    "number-issue": 78,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.nucc.hackwinds&fdpage=21"
+  },
+  "Remindly": {
+    "issue": "https://github.com/blanyal/Remindly/issues",
+    "src": "https://github.com/blanyal/Remindly/",
+    "number-issue": 2,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.blanyal.remindly&fdpage=41"
+  },
+  "Bitcoin": {
+    "issue": "https://github.com/schildbach/bitcoin-wallet/issues",
+    "src": "https://github.com/schildbach/bitcoin-wallet",
+    "number-issue": 175,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.schildbach.wallet&fdpage=7"
+  },
+  "World Clock & Weather": {
+    "issue": "https://github.com/arminha/worldclockwidget/issues",
+    "src": "https://github.com/arminha/worldclockwidget",
+    "number-issue": 49,
+    "url": "https://f-droid.org/repository/browse/?fdid=ch.corten.aha.worldclock&fdpage=54"
+  },
+  "MH4U Database": {
+    "issue": "https://github.com/kamegami13/MonsterHunter4UDatabase/issues",
+    "src": "https://github.com/kamegami13/MonsterHunter4UDatabase",
+    "number-issue": 12,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.daviancorp.android.mh4udatabase&fdpage=28"
+  },
+  "Yaaic": {
+    "issue": "https://github.com/pocmo/Yaaic/issues",
+    "src": "https://github.com/pocmo/Yaaic",
+    "number-issue": 91,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.yaaic&fdpage=55"
+  },
+  "Clover": {
+    "issue": "https://github.com/Floens/Clover/issues",
+    "src": "https://github.com/Floens/Clover",
+    "number-issue": 70,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.floens.chan&fdpage=10"
+  },
+  "VX ConnectBot": {
+    "issue": "https://github.com/vx/connectbot/issues",
+    "src": "https://github.com/vx/connectbot",
+    "number-issue": 33,
+    "url": "https://f-droid.org/repository/browse/?fdid=sk.vx.connectbot&fdpage=53"
+  },
+  "K-9 Mail": {
+    "issue": "https://github.com/k9mail/k-9/issues",
+    "src": "https://github.com/k9mail/k-9",
+    "number-issue": 109,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.fsck.k9&fdpage=24"
+  },
+  "AcDisplay": {
+    "issue": "https://github.com/AChep/AcDisplay/issues",
+    "src": "https://github.com/AChep/AcDisplay",
+    "number-issue": 41,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.achep.acdisplay"
+  },
+  "GPSLogger": {
+    "issue": "https://github.com/mendhak/gpslogger/issues",
+    "src": "https://github.com/mendhak/gpslogger",
+    "number-issue": 257,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.mendhak.gpslogger&fdpage=21"
+  },
+  "Network Monitor": {
+    "issue": "https://github.com/caarmen/network-monitor/issues",
+    "src": "https://github.com/caarmen/network-monitor",
+    "number-issue": 60,
+    "url": "https://f-droid.org/repository/browse/?fdid=ca.rmen.android.networkmonitor&fdpage=32"
+  },
+  "Andlytics": {
+    "issue": "https://github.com/AndlyticsProject/andlytics/issues",
+    "src": "https://github.com/AndlyticsProject/andlytics",
+    "number-issue": 236,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.github.andlyticsproject&fdpage=3"
+  },
+  "freeminer": {
+    "issue": "https://github.com/freeminer/freeminer/issues",
+    "src": "https://github.com/freeminer/freeminer",
+    "number-issue": 78,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.freeminer.freeminer&fdpage=19"
+  },
+  "Superuser": {
+    "issue": "https://github.com/koush/Superuser/issues",
+    "src": "https://github.com/koush/Superuser",
+    "number-issue": 63,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.koushikdutta.superuser&fdpage=48"
+  },
+  "Gobandroid": {
+    "issue": "https://github.com/ligi/gobandroid/issues",
+    "src": "https://github.com/ligi/gobandroid",
+    "number-issue": 83,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.ligi.gobandroid_hd&fdpage=20"
+  },
+  "OctoDroid": {
+    "issue": "https://github.com/slapperwan/gh4a/issues",
+    "src": "https://github.com/slapperwan/gh4a",
+    "number-issue": 176,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.gh4a&fdpage=34"
+  },
+  "Offline Calendar": {
+    "issue": "https://github.com/SufficientlySecure/offline-calendar/issues",
+    "src": "https://github.com/SufficientlySecure/offline-calendar",
+    "number-issue": 28,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.sufficientlysecure.localcalendar&fdpage=34"
+  },
+  "DroidBeard": {
+    "issue": "https://github.com/rastating/DroidBeard/issues",
+    "src": "https://github.com/rastating/DroidBeard",
+    "number-issue": 428,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.rastating.droidbeard&fdpage=15"
+  },
+  "FixMyStreet": {
+    "issue": "https://github.com/mysociety/fixmystreet-mobile/issues",
+    "src": "https://github.com/mysociety/fixmystreet-mobile",
+    "number-issue": 136,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.mysociety.FixMyStreet&fdpage=18"
+  },
+  "Device Frame Generator": {
+    "issue": "https://github.com/f2prateek/Device-Frame-Generator/issues",
+    "src": "https://github.com/f2prateek/Device-Frame-Generator",
+    "number-issue": 73,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.f2prateek.dfg&fdpage=13"
+  },
+  "GetBack GPS": {
+    "issue": "https://github.com/ruleant/getback_gps/issues",
+    "src": "https://github.com/ruleant/getback_gps",
+    "number-issue": 103,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.github.ruleant.getback_gps&fdpage=20"
+  },
+  "ParkenDD": {
+    "issue": "https://github.com/jklmnn/ParkenDD/issues",
+    "src": "https://github.com/jklmnn/ParkenDD",
+    "number-issue": 23,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.jkliemann.parkendd&fdpage=37"
+  },
+  "30C3 Schedule (Congress)": {
+    "issue": "https://github.com/tuxmobil/CampFahrplan/issues",
+    "src": "https://github.com/tuxmobil/CampFahrplan",
+    "number-issue": 25,
+    "url": "https://f-droid.org/repository/browse/?fdid=nerd.tuxmobil.fahrplan.congress"
+  },
+  "TTRSS-Reader": {
+    "issue": "https://github.com/nilsbraden/ttrss-reader-fork/issues",
+    "src": "https://github.com/nilsbraden/ttrss-reader-fork",
+    "number-issue": 285,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.ttrssreader&fdpage=51"
+  },
+  "Tacere": {
+    "issue": "https://github.com/ciasaboark/Tacere/issues",
+    "src": "https://github.com/ciasaboark/Tacere",
+    "number-issue": 39,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.ciasaboark.tacere&fdpage=48"
+  },
+  "SpotCommander": {
+    "issue": "https://github.com/olejon/spotcommander/issues",
+    "src": "https://github.com/olejon/spotcommander",
+    "number-issue": 92,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.olejon.spotcommander&fdpage=47"
+  },
+  "VIMTouch": {
+    "issue": "https://github.com/momodalo/vimtouch/issues",
+    "src": "https://github.com/momodalo/vimtouch",
+    "number-issue": 44,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.momodalo.app.vimtouch&fdpage=52"
+  },
+  "orWall": {
+    "issue": "https://github.com/EthACKdotOrg/orWall/issues",
+    "src": "https://github.com/EthACKdotOrg/orWall",
+    "number-issue": 49,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.ethack.orwall&fdpage=35"
+  },
+  "30C3 Schedule (Camp)": {
+    "issue": "https://github.com/tuxmobil/CampFahrplan/issues",
+    "src": "https://github.com/tuxmobil/CampFahrplan",
+    "number-issue": 25,
+    "url": "https://f-droid.org/repository/browse/?fdid=nerd.tuxmobil.fahrplan.camp"
+  },
+  "Shattered Pixel Dungeon": {
+    "issue": "https://github.com/00-Evan/shattered-pixel-dungeon/issues",
+    "src": "https://github.com/00-Evan/shattered-pixel-dungeon",
+    "number-issue": 51,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.shatteredpixel.shatteredpixeldungeon&fdpage=44"
+  },
+  "BetterBatteryStats": {
+    "issue": "https://github.com/asksven/BetterBatteryStats/issues",
+    "src": "https://github.com/asksven/BetterBatteryStats",
+    "number-issue": 570,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.asksven.betterbatterystats&fdpage=7"
+  },
+  "ownCloud": {
+    "issue": "https://github.com/owncloud/android/issues",
+    "src": "https://github.com/owncloud/android",
+    "number-issue": 550,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.owncloud.android&fdpage=36"
+  },
+  "Web Opac": {
+    "issue": "https://github.com/raphaelm/opacclient/issues",
+    "src": "https://github.com/raphaelm/opacclient",
+    "number-issue": 188,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.geeksfactory.opacclient&fdpage=53"
+  },
+  "OpenKeychain": {
+    "issue": "https://github.com/openpgp-keychain/openpgp-keychain/issues",
+    "src": "https://github.com/openpgp-keychain/openpgp-keychain",
+    "number-issue": 1063,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.sufficientlysecure.keychain&fdpage=35"
+  },
+  "Open Training": {
+    "issue": "https://github.com/chaosbastler/opentraining/issues",
+    "src": "https://github.com/chaosbastler/opentraining",
+    "number-issue": 23,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.skubware.opentraining&fdpage=35"
+  },
+  "Theia Icon Theme": {
+    "issue": "https://github.com/varlesh/theia-icon-theme/issues",
+    "src": "https://github.com/varlesh/theia-icon-theme",
+    "number-issue": 8,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.elementarytoday.theia&fdpage=49"
+  },
+  "Conversations": {
+    "issue": "https://github.com/siacs/Conversations/issues",
+    "src": "https://github.com/siacs/Conversations",
+    "number-issue": 928,
+    "url": "https://f-droid.org/repository/browse/?fdid=eu.siacs.conversations&fdpage=11"
+  },
+  "Clementine Remote": {
+    "issue": "https://github.com/clementine-player/Android-Remote/issues",
+    "src": "https://github.com/clementine-player/Android-Remote",
+    "number-issue": 93,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.qspool.clementineremote&fdpage=10"
+  },
+  "ShoppingList": {
+    "issue": "https://github.com/GroundApps/ShoppingList/issues",
+    "src": "https://github.com/GroundApps/ShoppingList",
+    "number-issue": 40,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.janb.shoppinglist&fdpage=44"
+  },
+  "Terminal Emulator": {
+    "issue": "https://github.com/jackpal/Android-Terminal-Emulator/issues",
+    "src": "https://github.com/jackpal/Android-Terminal-Emulator",
+    "number-issue": 30,
+    "url": "https://f-droid.org/repository/browse/?fdid=jackpal.androidterm&fdpage=49"
+  },
+  "SMSsync": {
+    "issue": "https://github.com/ushahidi/SMSSync/issues",
+    "src": "https://github.com/ushahidi/SMSSync",
+    "number-issue": 213,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.addhen.smssync&fdpage=46"
+  },
+  "qBittorrent Client Pro": {
+    "issue": "https://github.com/lgallard/qBittorrent-Client/issues",
+    "src": "https://github.com/lgallard/qBittorrent-Client",
+    "number-issue": 35,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.lgallardo.qbittorrentclientpro&fdpage=40"
+  },
+  "CalDAV Sync Adapter": {
+    "issue": "https://github.com/gggard/AndroidCaldavSyncAdapater/issues",
+    "src": "https://github.com/gggard/AndroidCaldavSyncAdapater",
+    "number-issue": 109,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.gege.caldavsyncadapter&fdpage=9"
+  },
+  "Mozilla Stumbler": {
+    "issue": "https://github.com/mozilla/MozStumbler/issues",
+    "src": "https://github.com/mozilla/MozStumbler",
+    "number-issue": 606,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.mozstumbler&fdpage=30"
+  },
+  "Agit": {
+    "issue": "https://github.com/rtyley/agit/issues",
+    "src": "https://github.com/rtyley/agit",
+    "number-issue": 38,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.madgag.agit&fdpage=2"
+  },
+  "Simple Deadlines": {
+    "issue": "https://github.com/chibibi/simpleDeadlines/issues",
+    "src": "https://github.com/chibibi/simpleDeadlines",
+    "number-issue": 23,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.casimirlab.simpleDeadlines&fdpage=45"
+  },
+  "Simpletask Cloudless": {
+    "issue": "https://github.com/mpcjanssen/simpletask-android/issues",
+    "src": "https://github.com/mpcjanssen/simpletask-android",
+    "number-issue": 204,
+    "url": "https://f-droid.org/repository/browse/?fdid=nl.mpcjanssen.simpletask&fdpage=45"
+  },
+  "Calculate!": {
+    "issue": "https://github.com/iilab/PanicButton/issues",
+    "src": "https://github.com/iilab/PanicButton",
+    "number-issue": 48,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.iilab.pb&fdpage=8"
+  },
+  "Traccar Client": {
+    "issue": "https://github.com/tananaev/traccar-client-android/issues",
+    "src": "https://github.com/tananaev/traccar-client-android",
+    "number-issue": 71,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.traccar.client&fdpage=50"
+  },
+  "MobileOrg": {
+    "issue": "https://github.com/matburt/mobileorg-android/issues",
+    "src": "https://github.com/matburt/mobileorg-android",
+    "number-issue": 298,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.matburt.mobileorg&fdpage=30"
+  },
+  "Telegram": {
+    "issue": "https://github.com/slp/Telegram-FOSS/issues",
+    "src": "https://github.com/slp/Telegram-FOSS",
+    "number-issue": 35,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.telegram.messenger&fdpage=49"
+  },
+  "Quasseldroid": {
+    "issue": "https://github.com/sandsmark/QuasselDroid/issues",
+    "src": "https://github.com/sandsmark/QuasselDroid",
+    "number-issue": 100,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.iskrembilen.quasseldroid&fdpage=40"
+  },
+  "MobiPerf": {
+    "issue": "https://github.com/Mobiperf/MobiPerf/issues",
+    "src": "https://github.com/Mobiperf/MobiPerf",
+    "number-issue": 50,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.mobiperf&fdpage=30"
+  },
+  "Light Controller": {
+    "issue": "https://github.com/eliotstocker/Light-Controller/issues",
+    "src": "https://github.com/eliotstocker/Light-Controller",
+    "number-issue": 30,
+    "url": "https://f-droid.org/repository/browse/?fdid=tv.piratemedia.lightcontroler&fdpage=26"
+  },
+  "Transdroid": {
+    "issue": "https://github.com/erickok/transdroid/issues",
+    "src": "https://github.com/erickok/transdroid",
+    "number-issue": 187,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.transdroid.full&fdpage=50"
+  },
+  "Vanilla Music": {
+    "issue": "https://github.com/vanilla-music/vanilla/issues",
+    "src": "https://github.com/vanilla-music/vanilla",
+    "number-issue": 178,
+    "url": "https://f-droid.org/repository/browse/?fdid=ch.blinkenlights.android.vanilla&fdpage=52"
+  },
+  "A2DP Volume": {
+    "issue": "https://github.com/jroal/a2dpvolume/issues",
+    "src": "https://github.com/jroal/a2dpvolume",
+    "number-issue": 189,
+    "url": "https://f-droid.org/repository/browse/?fdid=a2dp.Vol"
+  },
+  "SMSSecure": {
+    "issue": "https://github.com/SMSSecure/SMSSecure/issues",
+    "src": "https://github.com/SMSSecure/SMSSecure",
+    "number-issue": 132,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.smssecure.smssecure&fdpage=46"
+  },
+  "Aard": {
+    "issue": "https://github.com/aarddict/android/issues",
+    "src": "https://github.com/aarddict/android",
+    "number-issue": 81,
+    "url": "https://f-droid.org/repository/browse/?fdid=aarddict.android"
+  },
+  "Androzic": {
+    "issue": "https://github.com/andreynovikov/Androzic/issues",
+    "src": "https://github.com/andreynovikov/Androzic",
+    "number-issue": 30,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.androzic&fdpage=3"
+  },
+  "Liberario": {
+    "issue": "https://github.com/grote/Liberario/issues",
+    "src": "https://github.com/grote/Liberario",
+    "number-issue": 78,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.grobox.liberario&fdpage=26"
+  },
+  "InTheClear": {
+    "issue": "https://github.com/SaferMobile/intheclear/issues",
+    "src": "https://github.com/SaferMobile/intheclear",
+    "number-issue": 50,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.safermobile.intheclear&fdpage=24"
+  },
+  "OSMTracker": {
+    "issue": "https://github.com/nguillaumin/osmtracker-android/issues",
+    "src": "https://github.com/nguillaumin/osmtracker-android",
+    "number-issue": 8,
+    "url": "https://f-droid.org/repository/browse/?fdid=me.guillaumin.android.osmtracker&fdpage=36"
+  },
+  "MyOwnNotes": {
+    "issue": "https://github.com/aykit/myownnotes-android/issues",
+    "src": "https://github.com/aykit/myownnotes-android",
+    "number-issue": 57,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.aykit.MyOwnNotes&fdpage=31"
+  },
+  "Remote Smart Card Reader": {
+    "issue": "https://github.com/frankmorgner/vsmartcard/issues",
+    "src": "https://github.com/frankmorgner/vsmartcard",
+    "number-issue": 31,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.vsmartcard.remotesmartcardreader.app&fdpage=41"
+  },
+  "QuickLyric": {
+    "issue": "https://github.com/geecko86/QuickLyric/issues",
+    "src": "https://github.com/geecko86/QuickLyric",
+    "number-issue": 102,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.geecko.QuickLyric&fdpage=40"
+  },
+  "Smart Card Emulator": {
+    "issue": "https://github.com/frankmorgner/vsmartcard/issues",
+    "src": "https://github.com/frankmorgner/vsmartcard",
+    "number-issue": 31,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.vsmartcard.acardemulator&fdpage=46"
+  },
+  "RGB Tool": {
+    "issue": "https://github.com/fasteque/rgb-tool/issues",
+    "src": "https://github.com/fasteque/rgb-tool",
+    "number-issue": 47,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.fastebro.androidrgbtool&fdpage=41"
+  },
+  "Nuntius": {
+    "issue": "https://github.com/holylobster/nuntius-android/issues",
+    "src": "https://github.com/holylobster/nuntius-android",
+    "number-issue": 12,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.holylobster.nuntius&fdpage=34"
+  },
+  "Document Viewer": {
+    "issue": "https://github.com/SufficientlySecure/document-viewer/issues",
+    "src": "https://github.com/SufficientlySecure/document-viewer",
+    "number-issue": 54,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.sufficientlysecure.viewer&fdpage=14"
+  },
+  "Turbo Editor": {
+    "issue": "https://github.com/vmihalachi/turbo-editor/issues",
+    "src": "https://github.com/vmihalachi/turbo-editor",
+    "number-issue": 66,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.maskyn.fileeditorpro&fdpage=51"
+  },
+  "Lightning": {
+    "issue": "https://github.com/anthonycr/Lightning-Browser/issues",
+    "src": "https://github.com/anthonycr/Lightning-Browser",
+    "number-issue": 109,
+    "url": "https://f-droid.org/repository/browse/?fdid=acr.browser.lightning&fdpage=26"
+  },
+  "Barcode Scanner": {
+    "issue": "https://github.com/zxing/zxing/issues",
+    "src": "https://github.com/zxing/zxing",
+    "number-issue": 365,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.google.zxing.client.android&fdpage=6"
+  },
+  "Wiktionary": {
+    "issue": "https://github.com/wikimedia/WiktionaryMobile/issues",
+    "src": "https://github.com/wikimedia/WiktionaryMobile",
+    "number-issue": 0,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.wiktionary&fdpage=54"
+  },
+  "Face Slim": {
+    "issue": "https://github.com/indywidualny/FaceSlim/issues",
+    "src": "https://github.com/indywidualny/FaceSlim",
+    "number-issue": 31,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.indywidualni.fblite&fdpage=17"
+  },
+  "Scrum Chatter": {
+    "issue": "https://github.com/caarmen/scrumchatter/issues",
+    "src": "https://github.com/caarmen/scrumchatter",
+    "number-issue": 35,
+    "url": "https://f-droid.org/repository/browse/?fdid=ca.rmen.android.scrumchatter&fdpage=43"
+  },
+  "Campyre": {
+    "issue": "https://github.com/konklone/campyre/issues",
+    "src": "https://github.com/konklone/campyre",
+    "number-issue": 122,
+    "url": "https://f-droid.org/repository/browse/?fdid=campyre.android&fdpage=9"
+  },
+  "Transdrone": {
+    "issue": "https://github.com/erickok/transdroid/issues",
+    "src": "https://github.com/erickok/transdroid",
+    "number-issue": 187,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.transdroid.lite&fdpage=50"
+  },
+  "Logical Defence": {
+    "issue": "https://github.com/LukeStonehm/LogicalDefence/issues",
+    "src": "https://github.com/LukeStonehm/LogicalDefence",
+    "number-issue": 11,
+    "url": "https://f-droid.org/repository/browse/?fdid=za.co.lukestonehm.logicaldefence&fdpage=26"
+  },
+  "\u56db\u6b21\u5143": {
+    "issue": "https://github.com/qii/weiciyuan/issues",
+    "src": "https://github.com/qii/weiciyuan",
+    "number-issue": 193,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.qii.weiciyuan&fdpage=56"
+  },
+  "Yellr": {
+    "issue": "https://github.com/hhroc/yellr-android/issues",
+    "src": "https://github.com/hhroc/yellr-android",
+    "number-issue": 111,
+    "url": "https://f-droid.org/repository/browse/?fdid=yellr.net.yellr_android&fdpage=55"
+  },
+  "Radiobeacon": {
+    "issue": "https://github.com/wish7code/openbmap/issues",
+    "src": "https://github.com/wish7code/openbmap",
+    "number-issue": 71,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.openbmap&fdpage=40"
+  },
+  "ownCloud-SMS": {
+    "issue": "https://github.com/nerzhul/ownCloud-SMS-App/issues",
+    "src": "https://github.com/nerzhul/ownCloud-SMS-App",
+    "number-issue": 29,
+    "url": "https://f-droid.org/repository/browse/?fdid=fr.unix_experience.owncloud_sms&fdpage=36"
+  },
+  "OsmAnd Contour lines": {
+    "issue": "https://github.com/osmandapp/Osmand/issues",
+    "src": "https://github.com/osmandapp/Osmand",
+    "number-issue": 564,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.osmand.srtmPlugin.paid&fdpage=36"
+  },
+  "Simple Explorer": {
+    "issue": "https://github.com/DF1E/SimpleExplorer/issues",
+    "src": "https://github.com/DF1E/SimpleExplorer",
+    "number-issue": 26,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.dnielfe.manager&fdpage=45"
+  },
+  "Simple Alarm Clock": {
+    "issue": "https://github.com/yuriykulikov/AlarmClock/issues",
+    "src": "https://github.com/yuriykulikov/AlarmClock",
+    "number-issue": 200,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.better.alarm&fdpage=45"
+  },
+  "Muzei": {
+    "issue": "https://github.com/romannurik/muzei/issues",
+    "src": "https://github.com/romannurik/muzei",
+    "number-issue": 71,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.nurik.roman.muzei&fdpage=31"
+  },
+  "Calendula": {
+    "issue": "https://github.com/citiususc/calendula/issues",
+    "src": "https://github.com/citiususc/calendula",
+    "number-issue": 33,
+    "url": "https://f-droid.org/repository/browse/?fdid=es.usc.citius.servando.calendula&fdpage=9"
+  },
+  "Gear Shift": {
+    "issue": "https://github.com/urandom/gearshift/issues",
+    "src": "https://github.com/urandom/gearshift",
+    "number-issue": 18,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.sugr.gearshift&fdpage=19"
+  },
+  "Persian Calendar": {
+    "issue": "https://github.com/ebraminio/DroidPersianCalendar/issues",
+    "src": "https://github.com/ebraminio/DroidPersianCalendar",
+    "number-issue": 28,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.byagowi.persiancalendar&fdpage=37"
+  },
+  "My Expenses": {
+    "issue": "https://github.com/mtotschnig/MyExpenses/issues",
+    "src": "https://github.com/mtotschnig/MyExpenses",
+    "number-issue": 170,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.totschnig.myexpenses&fdpage=31"
+  },
+  "WebCams": {
+    "issue": "https://github.com/TomasValenta/WebCamViewer/issues",
+    "src": "https://github.com/TomasValenta/WebCamViewer",
+    "number-issue": 44,
+    "url": "https://f-droid.org/repository/browse/?fdid=cz.yetanotherview.webcamviewer.app&fdpage=53"
+  },
+  "Akvo RSR Up": {
+    "issue": "https://github.com/akvo/akvo-rsr-up/issues",
+    "src": "https://github.com/akvo/akvo-rsr-up",
+    "number-issue": 140,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.akvo.rsr.up&fdpage=2"
+  },
+  "NewsBlur": {
+    "issue": "https://github.com/samuelclay/NewsBlur/issues",
+    "src": "https://github.com/samuelclay/NewsBlur",
+    "number-issue": 468,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.newsblur&fdpage=32"
+  },
+  "Irssi ConnectBot": {
+    "issue": "https://github.com/irssiconnectbot/irssiconnectbot/issues",
+    "src": "https://github.com/irssiconnectbot/irssiconnectbot",
+    "number-issue": 17,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.woltage.irssiconnectbot&fdpage=24"
+  },
+  "IITC Mobile": {
+    "issue": "https://github.com/jonatkins/ingress-intel-total-conversion/issues",
+    "src": "https://github.com/jonatkins/ingress-intel-total-conversion",
+    "number-issue": 442,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.cradle.iitc_mobile&fdpage=23"
+  },
+  "Rainwave": {
+    "issue": "https://github.com/OEP/rainwave-android/issues",
+    "src": "https://github.com/OEP/rainwave-android",
+    "number-issue": 37,
+    "url": "https://f-droid.org/repository/browse/?fdid=cc.rainwave.android&fdpage=40"
+  },
+  "XBMC Remote": {
+    "issue": "https://github.com/freezy/android-xbmcremote/issues",
+    "src": "https://github.com/freezy/android-xbmcremote",
+    "number-issue": 13,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.xbmc.android.remote&fdpage=55"
+  },
+  "Timber": {
+    "issue": "https://github.com/naman14/Timber/issues",
+    "src": "https://github.com/naman14/Timber",
+    "number-issue": 21,
+    "url": "https://f-droid.org/repository/browse/?fdid=naman14.timber&fdpage=49"
+  },
+  "Clean Status Bar": {
+    "issue": "https://github.com/emmaguy/clean-status-bar/issues",
+    "src": "https://github.com/emmaguy/clean-status-bar",
+    "number-issue": 22,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.emmaguy.cleanstatusbar&fdpage=10"
+  },
+  "Kolab Notes": {
+    "issue": "https://github.com/konradrenner/kolabnotes-android/issues",
+    "src": "https://github.com/konradrenner/kolabnotes-android",
+    "number-issue": 57,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.kore.kolabnotes.android&fdpage=25"
+  },
+  "Critical Maps": {
+    "issue": "https://github.com/CriticalMaps/criticalmaps-android/issues",
+    "src": "https://github.com/CriticalMaps/criticalmaps-android",
+    "number-issue": 23,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.stephanlindauer.criticalmaps&fdpage=12"
+  },
+  "Diode": {
+    "issue": "https://github.com/zagaberoo/diode/issues",
+    "src": "https://github.com/zagaberoo/diode",
+    "number-issue": 5,
+    "url": "https://f-droid.org/repository/browse/?fdid=in.shick.diode&fdpage=14"
+  },
+  "JKU App": {
+    "issue": "https://github.com/marunjar/anewjkuapp/issues",
+    "src": "https://github.com/marunjar/anewjkuapp",
+    "number-issue": 23,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.voidsink.anewjkuapp&fdpage=24"
+  },
+  "Mi Manga Nu": {
+    "issue": "https://github.com/raulhaag/MiMangaNu/issues",
+    "src": "https://github.com/raulhaag/MiMangaNu",
+    "number-issue": 84,
+    "url": "https://f-droid.org/repository/browse/?fdid=ar.rulosoft.mimanganu&fdpage=28"
+  },
+  "Boilr": {
+    "issue": "https://github.com/drpout/boilr/issues",
+    "src": "https://github.com/drpout/boilr",
+    "number-issue": 127,
+    "url": "https://f-droid.org/repository/browse/?fdid=mobi.boilr.boilr&fdpage=8"
+  },
+  "Disable Manager": {
+    "issue": "https://github.com/75py/DisableManager/issues",
+    "src": "https://github.com/75py/DisableManager",
+    "number-issue": 33,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.nagopy.android.disablemanager2&fdpage=14"
+  },
+  "PPSSPP": {
+    "issue": "https://github.com/hrydgard/ppsspp/issues",
+    "src": "https://github.com/hrydgard/ppsspp",
+    "number-issue": 3143,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.ppsspp.ppsspp&fdpage=39"
+  },
+  "Podax": {
+    "issue": "https://github.com/thasmin/Podax/issues",
+    "src": "https://github.com/thasmin/Podax",
+    "number-issue": 154,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.axelby.podax&fdpage=38"
+  },
+  "Atomic": {
+    "issue": "https://github.com/indrora/Atomic/issues",
+    "src": "https://github.com/indrora/Atomic",
+    "number-issue": 50,
+    "url": "https://f-droid.org/repository/browse/?fdid=indrora.atomic&fdpage=5"
+  },
+  "Amaze": {
+    "issue": "https://github.com/arpitkh96/AmazeFileManager/issues",
+    "src": "https://github.com/arpitkh96/AmazeFileManager",
+    "number-issue": 46,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.amaze.filemanager&fdpage=2"
+  },
+  "TuCanMobile": {
+    "issue": "https://github.com/Tyde/TuCanMobile/issues",
+    "src": "https://github.com/Tyde/TuCanMobile",
+    "number-issue": 49,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.dalthed.tucan&fdpage=51"
+  },
+  "KISS launcher": {
+    "issue": "https://github.com/Neamar/KISS/issues",
+    "src": "https://github.com/Neamar/KISS",
+    "number-issue": 163,
+    "url": "https://f-droid.org/repository/browse/?fdid=fr.neamar.kiss&fdpage=25"
+  },
+  "WiGLE Wifi Wardriving": {
+    "issue": "https://github.com/wiglenet/wigle-wifi-wardriving/issues",
+    "src": "https://github.com/wiglenet/wigle-wifi-wardriving",
+    "number-issue": 15,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.wigle.wigleandroid&fdpage=54"
+  },
+  "Drinks": {
+    "issue": "https://github.com/amasciul/Drinks/issues",
+    "src": "https://github.com/amasciul/Drinks",
+    "number-issue": 53,
+    "url": "https://f-droid.org/repository/browse/?fdid=fr.masciulli.drinks&fdpage=14"
+  },
+  "OsmAnd~": {
+    "issue": "https://github.com/osmandapp/Osmand/issues",
+    "src": "https://github.com/osmandapp/Osmand",
+    "number-issue": 564,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.osmand.plus&fdpage=36"
+  },
+  "TurtlePlayer": {
+    "issue": "https://github.com/eddturtle/TurtlePlayer/issues",
+    "src": "https://github.com/eddturtle/TurtlePlayer",
+    "number-issue": 15,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.turtleplayerv2&fdpage=51"
+  },
+  "Pretty Good Music Player": {
+    "issue": "https://github.com/smithdtyler/prettygoodmusicplayer/issues",
+    "src": "https://github.com/smithdtyler/prettygoodmusicplayer",
+    "number-issue": 55,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.smithdtyler.prettygoodmusicplayer&fdpage=39"
+  },
+  "OS Monitor": {
+    "issue": "https://github.com/eolwral/OSMonitor/issues",
+    "src": "https://github.com/eolwral/OSMonitor",
+    "number-issue": 42,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.eolwral.osmonitor&fdpage=35"
+  },
+  "ADW.Launcher": {
+    "issue": "https://github.com/AnderWeb/android_packages_apps_Launcher/issues",
+    "src": "https://github.com/AnderWeb/android_packages_apps_Launcher",
+    "number-issue": 21,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.adw.launcher&fdpage=2"
+  },
+  "RunnerUp": {
+    "issue": "https://github.com/jonasoreland/runnerup/issues",
+    "src": "https://github.com/jonasoreland/runnerup/",
+    "number-issue": 113,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.runnerup&fdpage=42"
+  },
+  "GeoPaparazzi": {
+    "issue": "https://github.com/geopaparazzi/geopaparazzi/issues",
+    "src": "https://github.com/geopaparazzi/geopaparazzi",
+    "number-issue": 248,
+    "url": "https://f-droid.org/repository/browse/?fdid=eu.hydrologis.geopaparazzi&fdpage=20"
+  },
+  "GnuCash": {
+    "issue": "https://github.com/codinguser/gnucash-android/issues",
+    "src": "https://github.com/codinguser/gnucash-android",
+    "number-issue": 195,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.gnucash.android&fdpage=20"
+  },
+  "Serval Mesh": {
+    "issue": "https://github.com/servalproject/batphone/issues",
+    "src": "https://github.com/servalproject/batphone",
+    "number-issue": 73,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.servalproject&fdpage=44"
+  },
+  "\u00b5g UnifiedNlp for GAPPS-free devices (legacy)": {
+    "issue": "https://github.com/microg/android_packages_apps_UnifiedNlp/issues",
+    "src": "https://github.com/microg/android_packages_apps_UnifiedNlp",
+    "number-issue": 28,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.google.android.location&fdpage=56"
+  },
+  "Car Cast": {
+    "issue": "https://github.com/bherrmann7/Car-Cast/issues",
+    "src": "https://github.com/bherrmann7/Car-Cast",
+    "number-issue": 44,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.jadn.cc&fdpage=9"
+  },
+  "Android OBD-II Reader": {
+    "issue": "https://github.com/pires/android-obd-reader/issues",
+    "src": "https://github.com/pires/android-obd-reader",
+    "number-issue": 77,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.github.pires.obd.reader&fdpage=3"
+  },
+  "SparkleShare": {
+    "issue": "https://github.com/NewProggie/SparkleShare-Android/issues",
+    "src": "https://github.com/NewProggie/SparkleShare-Android",
+    "number-issue": 33,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.sparkleshare.android&fdpage=46"
+  },
+  "BRouter": {
+    "issue": "https://github.com/abrensch/brouter/issues",
+    "src": "https://github.com/abrensch/brouter",
+    "number-issue": 20,
+    "url": "https://f-droid.org/repository/browse/?fdid=btools.routingapp&fdpage=8"
+  },
+  "PocketMaps": {
+    "issue": "https://github.com/junjunguo/PocketMaps/issues",
+    "src": "https://github.com/junjunguo/PocketMaps",
+    "number-issue": 45,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.junjunguo.pocketmaps&fdpage=38"
+  },
+  "Bankdroid": {
+    "issue": "https://github.com/liato/android-bankdroid/issues",
+    "src": "https://github.com/liato/android-bankdroid",
+    "number-issue": 274,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.liato.bankdroid&fdpage=6"
+  },
+  "MPDroid": {
+    "issue": "https://github.com/abarisain/dmix/issues",
+    "src": "https://github.com/abarisain/dmix",
+    "number-issue": 501,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.namelessdev.mpdroid&fdpage=31"
+  },
+  "Kernel Adiutor": {
+    "issue": "https://github.com/Grarak/KernelAdiutor/issues",
+    "src": "https://github.com/Grarak/KernelAdiutor",
+    "number-issue": 157,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.grarak.kerneladiutor&fdpage=25"
+  },
+  "Lil' Debi": {
+    "issue": "https://github.com/guardianproject/lildebi/issues",
+    "src": "https://github.com/guardianproject/lildebi",
+    "number-issue": 106,
+    "url": "https://f-droid.org/repository/browse/?fdid=info.guardianproject.lildebi&fdpage=26"
+  },
+  "FAST App Search Tool": {
+    "issue": "https://github.com/ligi/FAST/issues",
+    "src": "https://github.com/ligi/FAST",
+    "number-issue": 23,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.ligi.fast&fdpage=17"
+  },
+  "CyanogenMod Installer": {
+    "issue": "https://github.com/cyngn/OneClickAndroid/issues",
+    "src": "https://github.com/cyngn/OneClickAndroid",
+    "number-issue": 1,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.cyanogenmod.oneclick&fdpage=12"
+  },
+  "DuckDuckGo": {
+    "issue": "https://github.com/duckduckgo/android/issues",
+    "src": "https://github.com/duckduckgo/android",
+    "number-issue": 91,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.duckduckgo.mobile.android&fdpage=15"
+  },
+  "xkcdViewer": {
+    "issue": "https://github.com/tcoxon/XkcdViewer/issues",
+    "src": "https://github.com/tcoxon/XkcdViewer",
+    "number-issue": 44,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.bytten.xkcdviewer&fdpage=55"
+  },
+  "Seafile": {
+    "issue": "https://github.com/haiwen/seadroid/issues",
+    "src": "https://github.com/haiwen/seadroid",
+    "number-issue": 167,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.seafile.seadroid2&fdpage=43"
+  },
+  "Twidere": {
+    "issue": "https://github.com/TwidereProject/Twidere-Android/issues",
+    "src": "https://github.com/TwidereProject/Twidere-Android",
+    "number-issue": 103,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.mariotaku.twidere&fdpage=51"
+  },
+  "SudoQ": {
+    "issue": "https://github.com/SDEagle/SudoQ/issues",
+    "src": "https://github.com/SDEagle/SudoQ",
+    "number-issue": 110,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.sudoq&fdpage=47"
+  },
+  "Better Wifi on/off": {
+    "issue": "https://github.com/asksven/BetterWifiOnOff/issues",
+    "src": "https://github.com/asksven/BetterWifiOnOff",
+    "number-issue": 123,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.asksven.betterwifionoff&fdpage=7"
+  },
+  "OpenRedmine": {
+    "issue": "https://github.com/indication/OpenRedmine/issues",
+    "src": "https://github.com/indication/OpenRedmine",
+    "number-issue": 75,
+    "url": "https://f-droid.org/repository/browse/?fdid=jp.redmine.redmineclient&fdpage=35"
+  },
+  "andFHEM": {
+    "issue": "https://github.com/klassm/andFHEM/issues",
+    "src": "https://github.com/klassm/andFHEM",
+    "number-issue": 918,
+    "url": "https://f-droid.org/repository/browse/?fdid=li.klass.fhem&fdpage=3"
+  },
+  "iFixit": {
+    "issue": "https://github.com/iFixit/iFixitAndroid/issues",
+    "src": "https://github.com/iFixit/iFixitAndroid",
+    "number-issue": 180,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.dozuki.ifixit&fdpage=23"
+  },
+  "NetGuard": {
+    "issue": "https://github.com/M66B/NetGuard/issues",
+    "src": "https://github.com/M66B/NetGuard",
+    "number-issue": 15,
+    "url": "https://f-droid.org/repository/browse/?fdid=eu.faircode.netguard&fdpage=32"
+  },
+  "Xabber Classic": {
+    "issue": "https://github.com/redsolution/xabber-android/issues",
+    "src": "https://github.com/redsolution/xabber-android",
+    "number-issue": 225,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.xabber.android.classic&fdpage=55"
+  },
+  "SatStat": {
+    "issue": "https://github.com/mvglasow/satstat/issues",
+    "src": "https://github.com/mvglasow/satstat",
+    "number-issue": 33,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.vonglasow.michael.satstat&fdpage=43"
+  },
+  "OCR Test": {
+    "issue": "https://github.com/rmtheis/android-ocr/issues",
+    "src": "https://github.com/rmtheis/android-ocr",
+    "number-issue": 33,
+    "url": "https://f-droid.org/repository/browse/?fdid=edu.sfsu.cs.orange.ocr&fdpage=34"
+  },
+  "FareBot": {
+    "issue": "https://github.com/codebutler/farebot/issues",
+    "src": "https://github.com/codebutler/farebot",
+    "number-issue": 15,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.codebutler.farebot&fdpage=17"
+  },
+  "Gadgetbridge": {
+    "issue": "https://github.com/Freeyourgadget/Gadgetbridge/issues",
+    "src": "https://github.com/Freeyourgadget/Gadgetbridge",
+    "number-issue": 88,
+    "url": "https://f-droid.org/repository/browse/?fdid=nodomain.freeyourgadget.gadgetbridge&fdpage=19"
+  },
+  "Berlin Vegan": {
+    "issue": "https://github.com/smeir/Berlin-Vegan-Guide/issues",
+    "src": "https://github.com/smeir/Berlin-Vegan-Guide",
+    "number-issue": 38,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.berlin_vegan.bvapp&fdpage=6"
+  },
+  "KeepScore": {
+    "issue": "https://github.com/nolanlawson/KeepScore/issues",
+    "src": "https://github.com/nolanlawson/KeepScore",
+    "number-issue": 52,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.nolanlawson.keepscore&fdpage=25"
+  },
+  "Tinfoil for Facebook": {
+    "issue": "https://github.com/velazcod/Tinfoil-Facebook/issues",
+    "src": "https://github.com/velazcod/Tinfoil-Facebook",
+    "number-issue": 32,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.danvelazco.fbwrapper&fdpage=49"
+  },
+  "Kontalk": {
+    "issue": "https://github.com/kontalk/androidclient/issues",
+    "src": "https://github.com/kontalk/androidclient",
+    "number-issue": 470,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.kontalk&fdpage=25"
+  },
+  "NewPipe": {
+    "issue": "https://github.com/theScrabi/NewPipe/issues",
+    "src": "https://github.com/theScrabi/NewPipe",
+    "number-issue": 28,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.schabi.newpipe&fdpage=32"
+  },
+  "Transports Rennes": {
+    "issue": "https://github.com/ybonnel/TransportsRennes/issues",
+    "src": "https://github.com/ybonnel/TransportsRennes/tree/noGoogleMap",
+    "number-issue": 95,
+    "url": "https://f-droid.org/repository/browse/?fdid=fr.ybo.transportsrennes&fdpage=50"
+  },
+  "Vespucci (F-Droid)": {
+    "issue": "https://github.com/MarcusWolschon/osmeditor4android/issues",
+    "src": "https://github.com/MarcusWolschon/osmeditor4android",
+    "number-issue": 291,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.blau.android&fdpage=52"
+  },
+  "Masterwork Tools: Pathfinder Open Reference": {
+    "issue": "https://github.com/devonjones/PathfinderOpenReference/issues",
+    "src": "https://github.com/devonjones/PathfinderOpenReference",
+    "number-issue": 58,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.evilsoft.pathfinder.reference&fdpage=27"
+  },
+  "AnyMemo": {
+    "issue": "https://github.com/helloworld1/AnyMemo/issues",
+    "src": "https://github.com/helloworld1/AnyMemo",
+    "number-issue": 283,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.liberty.android.fantastischmemo&fdpage=4"
+  },
+  "Hall Monitor": {
+    "issue": "https://github.com/durka/HallMonitor/issues",
+    "src": "https://github.com/durka/HallMonitor",
+    "number-issue": 21,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.durka.hallmonitor&fdpage=21"
+  },
+  "Glucosio": {
+    "issue": "https://github.com/Glucosio/android/issues",
+    "src": "https://github.com/Glucosio/android",
+    "number-issue": 87,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.glucosio.android&fdpage=20"
+  },
+  "Chanu": {
+    "issue": "https://github.com/grzegorznittner/chanu/issues",
+    "src": "https://github.com/grzegorznittner/chanu",
+    "number-issue": 376,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.chanapps.four.activity&fdpage=10"
+  },
+  "Minilens": {
+    "issue": "https://github.com/KOBUGE-Games/minilens/issues",
+    "src": "https://github.com/KOBUGE-Games/minilens",
+    "number-issue": 45,
+    "url": "https://f-droid.org/repository/browse/?fdid=io.github.kobuge.games.minilens&fdpage=29"
+  },
+  "Xabber": {
+    "issue": "https://github.com/redsolution/xabber-android/issues",
+    "src": "https://github.com/redsolution/xabber-android",
+    "number-issue": 225,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.xabber.androiddev&fdpage=55"
+  },
+  "Indic Keyboard": {
+    "issue": "https://github.com/smc/Indic-Keyboard/issues",
+    "src": "https://github.com/smc/Indic-Keyboard",
+    "number-issue": 24,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.smc.inputmethod.indic&fdpage=23"
+  },
+  "GitHub": {
+    "issue": "https://github.com/github/android/issues",
+    "src": "https://github.com/github/android",
+    "number-issue": 375,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.github.mobile&fdpage=20"
+  },
+  "AdAway": {
+    "issue": "https://github.com/Free-Software-for-Android/AdAway/issues",
+    "src": "https://github.com/Free-Software-for-Android/AdAway",
+    "number-issue": 557,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.adaway"
+  },
+  "Vanilla Music (old)": {
+    "issue": "https://github.com/kreed/vanilla/issues",
+    "src": "https://github.com/kreed/vanilla",
+    "number-issue": 48,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.kreed.vanilla&fdpage=52"
+  },
+  "SMS Backup+": {
+    "issue": "https://github.com/jberkel/sms-backup-plus/issues",
+    "src": "https://github.com/jberkel/sms-backup-plus",
+    "number-issue": 476,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.zegoggles.smssync&fdpage=46"
+  },
+  "Puzzles": {
+    "issue": "https://github.com/chrisboyle/sgtpuzzles/issues",
+    "src": "https://github.com/chrisboyle/sgtpuzzles",
+    "number-issue": 242,
+    "url": "https://f-droid.org/repository/browse/?fdid=name.boyle.chris.sgtpuzzles&fdpage=39"
+  },
+  "Password Store": {
+    "issue": "https://github.com/zeapo/Android-Password-Store/issues",
+    "src": "https://github.com/zeapo/Android-Password-Store",
+    "number-issue": 81,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.zeapo.pwdstore&fdpage=37"
+  },
+  "AnySoftKeyboard": {
+    "issue": "https://github.com/AnySoftKeyboard/AnySoftKeyboard/issues",
+    "src": "https://github.com/AnySoftKeyboard/AnySoftKeyboard",
+    "number-issue": 320,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.menny.android.anysoftkeyboard&fdpage=4"
+  },
+  "mythmote": {
+    "issue": "https://github.com/pot8oe/mythmote/issues",
+    "src": "https://github.com/pot8oe/mythmote",
+    "number-issue": 68,
+    "url": "https://f-droid.org/repository/browse/?fdid=tkj.android.homecontrol.mythmote&fdpage=31"
+  },
+  "Open Explorer Beta": {
+    "issue": "https://github.com/BrandroidTools/OpenExplorer/issues",
+    "src": "https://github.com/BrandroidTools/OpenExplorer",
+    "number-issue": 45,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.brandroid.openmanager&fdpage=34"
+  },
+  "Writeily Pro": {
+    "issue": "https://github.com/plafue/writeily-pro/issues",
+    "src": "https://github.com/plafue/writeily-pro",
+    "number-issue": 79,
+    "url": "https://f-droid.org/repository/browse/?fdid=me.writeily&fdpage=55"
+  },
+  "SMS Popup": {
+    "issue": "https://github.com/everythingandroid/android-smspopup/issues",
+    "src": "https://github.com/everythingandroid/android-smspopup",
+    "number-issue": 330,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.everythingandroid.smspopup&fdpage=46"
+  },
+  "Syncthing": {
+    "issue": "https://github.com/syncthing/syncthing-android/issues",
+    "src": "https://github.com/syncthing/syncthing-android",
+    "number-issue": 329,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.nutomic.syncthingandroid&fdpage=48"
+  },
+  "Book Catalogue": {
+    "issue": "https://github.com/eleybourn/Book-Catalogue/issues",
+    "src": "https://github.com/eleybourn/Book-Catalogue",
+    "number-issue": 369,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.eleybourn.bookcatalogue&fdpage=8"
+  },
+  "AnkiDroid": {
+    "issue": "https://github.com/ankidroid/Anki-Android/issues",
+    "src": "https://github.com/ankidroid/Anki-Android",
+    "number-issue": 2479,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.ichi2.anki&fdpage=4"
+  },
+  "CycleStreets": {
+    "issue": "https://github.com/cyclestreets/android/issues",
+    "src": "https://github.com/cyclestreets/android",
+    "number-issue": 51,
+    "url": "https://f-droid.org/repository/browse/?fdid=net.cyclestreets&fdpage=12"
+  },
+  "Material Player": {
+    "issue": "https://github.com/Ph1b/MaterialAudiobookPlayer/issues",
+    "src": "https://github.com/Ph1b/MaterialAudiobookPlayer",
+    "number-issue": 282,
+    "url": "https://f-droid.org/repository/browse/?fdid=de.ph1b.audiobook&fdpage=27"
+  },
+  "FrostWire": {
+    "issue": "https://github.com/frostwire/frostwire-android/issues",
+    "src": "https://github.com/frostwire/frostwire-android",
+    "number-issue": 98,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.frostwire.android&fdpage=19"
+  },
+  "Avare": {
+    "issue": "https://github.com/apps4av/avare/issues",
+    "src": "https://github.com/apps4av/avare",
+    "number-issue": 72,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.ds.avare&fdpage=6"
+  },
+  "HN": {
+    "issue": "https://github.com/manmal/hn-android/issues",
+    "src": "https://github.com/manmal/hn-android",
+    "number-issue": 64,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.manuelmaly.hn&fdpage=22"
+  },
+  "Birthday Adapter": {
+    "issue": "https://github.com/dschuermann/birthday-adapter/issues",
+    "src": "https://github.com/dschuermann/birthday-adapter",
+    "number-issue": 64,
+    "url": "https://f-droid.org/repository/browse/?fdid=org.birthdayadapter&fdpage=7"
+  },
+  "Deckerino": {
+    "issue": "https://github.com/efarraro/deckerino/issues",
+    "src": "https://github.com/efarraro/deckerino",
+    "number-issue": 31,
+    "url": "https://f-droid.org/repository/browse/?fdid=com.slothwerks.hearthstone.compendiumforhearthstone&fdpage=13"
+  }
+}
