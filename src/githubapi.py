@@ -154,7 +154,7 @@ def main():
 
         for issue in issuedata:
             js = json.loads(api.get(issue["events_url"]))
-            if "pull_request" in js:
+            if "pull_request" in issue:
                 resultPR += js
             else:
                 resultRL += js
