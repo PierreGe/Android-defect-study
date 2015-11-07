@@ -12,32 +12,6 @@ def subprocess_cmd(commands):
     process.wait()
     return proc_stdout
 
-
-def getGitCommit():
-    datafilename = 'finalrepos.json'
-    subdir = "data/"
-    with open(datafilename) as data_file:
-        data = json.load(data_file)
-    for key in data:
-        repo = data[key]
-        url = repo["url"]
-        src = repo["src"]
-        issue = repo["issue"]
-        directory = subdir + key.replace(" ", "_")
-        directoryIssue = directory + "/issues/"
-        directoryGit = directory + "/git/"
-        issuefilename = 'closedrealissues.json'
-        with open(directoryIssue + issuefilename) as dataIssueFile:
-            issuedata = json.load(dataIssueFile)
-        for issueevent in issuedata:
-            if "commit_id" in issueevent:
-                if issueevent["commit_id"] != None:
-                    commitHash = issueevent["commit_id"]
-                    print(issueevent["commit_id"])
-                    res = subprocess_cmd('cd ' + directoryGit + '; git show --format=raw '+commitHash)
-                    print(res)
-
-
 def getJarFiles():
     datafilename = 'finalrepos.json'
     subdir = "data/"
