@@ -26,8 +26,8 @@ def main():
             print(key + " :" +str(issuescore[key]) + "<->" + str(cgscore[key]))
 
 
-    plt.hist(x1, bins=20, histtype='stepfilled', color='b', label='Issue')
-    plt.hist(x2, bins=20, histtype='stepfilled', color='r', alpha=0.5, label='Calls')
+    plt.hist(x1, bins=20, histtype='stepfilled', color='r', label='Issue')
+    plt.hist(x2, bins=20, histtype='stepfilled', color='b', alpha=0.5, label='Calls')
     plt.title("AntennaPod")
     plt.xlabel("Class")
     plt.ylabel("Value")
