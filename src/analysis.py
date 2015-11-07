@@ -26,13 +26,13 @@ def main():
             print(key + " :" +str(issuescore[key]) + "<->" + str(cgscore[key]))
 
 
-    plt.hist(x1, bins=20, histtype='stepfilled', normed=True, color='b', label='Issue')
-    plt.hist(x2, bins=20, histtype='stepfilled', normed=True, color='r', alpha=0.5, label='Calls')
-    plt.title("Gaussian/Uniform Histogram")
-    plt.xlabel("Value")
-    plt.ylabel("Probability")
+    plt.hist(x1, bins=20, histtype='stepfilled', color='b', label='Issue')
+    plt.hist(x2, bins=20, histtype='stepfilled', color='r', alpha=0.5, label='Calls')
+    plt.title("AntennaPod")
+    plt.xlabel("Class")
+    plt.ylabel("Value")
     plt.legend()
-    plt.savefig("res.png")
+    plt.savefig("result.png")
 
 
 if __name__ == '__main__':
