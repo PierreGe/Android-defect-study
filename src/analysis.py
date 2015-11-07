@@ -32,7 +32,7 @@ def main():
     plt.xlabel("Value")
     plt.ylabel("Probability")
     plt.legend()
-    plt.show()
+    plt.savefig("res.png")
 
 
 if __name__ == '__main__':
