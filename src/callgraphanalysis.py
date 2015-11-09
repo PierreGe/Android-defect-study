@@ -10,7 +10,8 @@ def getDictClass(callGraphFile, restriction):
                 if data[:2] == "C:":
                     data = data[2:]
                     caller, called = data.split()
-                    if restriction in caller and restriction not in called and "android" in called:
+                    #if restriction in caller and restriction not in called and "android" in called:
+                    if True:
                         if caller in res:
                             res[caller].append(called)
                         else:
@@ -21,23 +22,16 @@ def getDictClass(callGraphFile, restriction):
 
 
 
-def score():
-    graph = getDictClass("data/AntennaPod/callGraph/callgraph.txt", "de.danoeh.antennapod")
-    x = 0
-    for i in graph:
-        if len(graph[i]) > 40:
-            pass
-            #print("- " + i + " ->  [" + " ".join(graph[i]) + "]")
-    #print(len(graph))
-    #print(x)
+def score(callgraphPath, packageName):
+    graph = getDictClass(callgraphPath, packageName)
 
     res = {}
     for i in graph:
-        caller = i.split(".")[-1].split("$")[0] if "$" in i.split(".")[-1] else i.split(".")[-1]
+        caller = i.split(".")[-1].split("$")[-1] if "$" in i.split(".")[-1] else i.split(".")[-1]
         if caller in res:
-            res[caller] += len(graph[i])
+            res[caller] += len(graph[i])*10
         else:
-            res[caller] = len(graph[i])
+            res[caller] = len(graph[i])*10
 
     return res
 
