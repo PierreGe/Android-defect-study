@@ -27,7 +27,7 @@ def score(callgraphPath, packageName):
 
     res = {}
     for i in graph:
-        caller = i.split(".")[-1].split("$")[-1] if "$" in i.split(".")[-1] else i.split(".")[-1]
+        caller = i.split(".")[-1].split("$")[0] if "$" in i.split(".")[-1] else i.split(".")[-1]
         if caller in res:
             res[caller] += len(graph[i])*10
         else:
