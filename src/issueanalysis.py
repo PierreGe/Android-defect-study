@@ -60,16 +60,19 @@ def score(targetKey):
     a = getGitCommit(targetKey)
     res = {}
     for commit in a[targetKey]:
-        ponderation = commit.count("public class")
+        ponderation = commit.count("class")
         for line in commit.split("\n"):
-            if "public class" in line:
+            if "public" in line.split() and "class" in line.split():
                 for iword, word in enumerate(line.split()):
-                    if word == "public" and line.split()[iword+1] == "class":
-                        klass = line.split()[iword+2]
-                        if klass in res:
-                            res[klass] += 100./ponderation
-                        else:
-                            res[klass] = 100./ponderation
+                    if word == "class":
+                        try:
+                            klass = line.split()[iword+1]
+                            if klass in res:
+                                res[klass] += 1./ponderation
+                            else:
+                                res[klass] = 1./ponderation
+                        except:
+                            print("Error : " + line)
 
     return res
 
