@@ -1,7 +1,9 @@
 import numpy as np
 import json
-from scipy.stats.stats import pearsonr, spearmanr, kendalltau, kstest,linregress
+from scipy.stats.stats import pearsonr, spearmanr, kendalltau, kstest
+from scipy.stats import f_oneway
 import statsmodels.api as sm
+import matplotlib.pyplot as plt
 from statsmodels.sandbox.regression.predstd import wls_prediction_std
 
 
@@ -101,8 +103,12 @@ def main():
     classSizeForGlobalModel = []
     issueGlobalCallgraphValueForStats = []
     callGlobalGraphValueForStats = []
+    NOissueGlobalCallgraphValueForStats = []
     issueGlobalSizeValueForStats = []
     classGlobalSizeValueForStats = []
+
+    anova1issue = []
+    anova2issue = []
     for appliName in finalData:
         cgscore, issuescore, classSize = finalData[appliName]
         for key in issuescore:
@@ -117,6 +123,15 @@ def main():
                 j+=1
                 issueGlobalCallgraphValueForStats.append(issuescore[key])
                 callGlobalGraphValueForStats.append(cgscore[key])
+            else:
+                NOissueGlobalCallgraphValueForStats.append(issuescore[key])
+
+        for key in cgscore:
+            if key in issuescore:
+                anova1issue.append(cgscore[key])
+            else:
+                anova2issue.append(cgscore[key])
+
 
         for key in issuescore:
             if key in classSize:
@@ -130,11 +145,21 @@ def main():
     spearmanGlobalCorrelationCoefficient2, spearmanpvalue2Global = spearmanr(issueGlobalSizeValueForStats,classGlobalSizeValueForStats)
     kendalltauGlobalCorrelationCoefficient2, kendalltaupvalue2Global = kendalltau(issueGlobalSizeValueForStats,classGlobalSizeValueForStats)
 
+
+    fvalueanova1, pvalueanova1 = f_oneway(issueGlobalCallgraphValueForStats, NOissueGlobalCallgraphValueForStats)
+
+    fvalueanova2, pvalueanova2 = f_oneway(anova1issue, anova2issue)
+
+    print(len(NOissueGlobalCallgraphValueForStats))
     print("--- Correlation : API Call <> Issue")
     print(" "*8 + "Spearman rho correlation coefficient = " + str(spearmanGlobalCorrelationCoefficient))
     print(" "*8 + "Spearman p-value = " + str(spearmanpvalueGlobal))
     print(" "*8 + "Kendall Tau = " + str(kendalltauGlobalCorrelationCoefficient))
     print(" "*8 + "Kendall p-value = " + str(kendalltaupvalueGlobal))
+    print(" "*8 + "ANOVA F-value = " + str(fvalueanova1))
+    print(" "*8 + "ANOVA p-value = " + str(pvalueanova1))
+    print(" "*8 + "ANOVA F-value = " + str(fvalueanova2))
+    print(" "*8 + "ANOVA p-value = " + str(pvalueanova2))
     print("--- Correlation : Class Size <> Issue")
     print(" "*8 + "Spearman rho correlation coefficient = " + str(spearmanGlobalCorrelationCoefficient2))
     print(" "*8 + "Spearman p-value = " + str(spearmanpvalue2Global))
@@ -151,7 +176,30 @@ def main():
     model = sm.OLS(y, X)
     results = model.fit()
     print(results.summary(yname="issues", xname =("APIcalls", "ClassSize")))
-    #print(results.summary2(yname="issues", xname =("APIcalls", "ClassSize")))
+    print(results.summary2(yname="issues", xname =("APIcalls", "ClassSize")))
+
+
+    prstd, iv_l, iv_u = wls_prediction_std(results)
+
+    fig, ax = plt.subplots(figsize=(8,6))
+
+    ax.plot(X, y, 'o', label="data")
+    #ax.plot(X, y_true, 'b-', label="True")
+    ax.plot(X, results.fittedvalues, 'r--.', label="OLS")
+    ax.plot(X, iv_u, 'r--')
+    ax.plot(X, iv_l, 'r--')
+    ax.legend(loc='best');
+
+    print("API CALLS only")
+    model2 = sm.OLS(y, callGraphForGlobalModel)
+    results = model2.fit()
+    print(results.summary(yname="issues"))
+    print(results.summary2(yname="issues", xname ="APIcalls"))
+    print("Size only")
+    model3 = sm.OLS(y, classSizeForGlobalModel)
+    results = model3.fit()
+    print(results.summary(yname="issues", xname ="ClassSize"))
+    print(results.summary2(yname="issues", xname ="ClassSize"))
 
 if __name__ == '__main__':
     main()

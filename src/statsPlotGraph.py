@@ -3,6 +3,7 @@
 import numpy as np
 import json
 import matplotlib.pyplot as plt
+import os
 
 
 
@@ -36,7 +37,7 @@ def main():
 
             plt.hist(issueVallueForGraph, bins=j, histtype='stepfilled', normed=True, color='r', label='Issue')
             plt.hist(cgValueForGraph, bins=j, histtype='stepfilled', normed=True, color='b', alpha=0.5, label='Calls')
-            titleplt = appliName + " (pearsonr="+ str(pearsonCorrelationCoefficient) + ")"
+            titleplt = appliName
             plt.title(titleplt)
             plt.xlabel("Class")
             plt.ylabel("Value")
@@ -48,6 +49,37 @@ def main():
             plt.close()
         else:
             print("FAILURE : " + appliName)
+
+    allissuescore = {}
+    allcgscore = {}
+    for appliName in finalData:
+        cgscore, issuescore, classSize = finalData[appliName]
+        allissuescore.update(issuescore)
+        allcgscore.update(cgscore)
+
+    issueVallueForGraph = []
+    cgValueForGraph = []
+
+    for key in allissuescore:
+        if key in allcgscore:
+            issueVallueForGraph.append(allissuescore[key])
+            cgValueForGraph.append(allcgscore[key])
+
+
+
+    plt.plot(cgValueForGraph, issueVallueForGraph, 'ro')
+    plt.xlabel("API Calls")
+    plt.ylabel("Issue Score")
+    plt.axis([0, 200, 0, 100])
+    subfolder = "newgraph"
+    titleplt = "All applications (zoomed)"
+    plt.title(titleplt)
+    plt.legend()
+    if not os.path.exists(subfolder):
+        os.makedirs(subfolder)
+    plt.savefig(subfolder + "/linall.png")
+    plt.close()
+
 
 
 if __name__ == '__main__':
