@@ -3,7 +3,6 @@ import json
 from scipy.stats.stats import pearsonr, spearmanr, kendalltau, kstest
 from scipy.stats import f_oneway
 import statsmodels.api as sm
-import matplotlib.pyplot as plt
 from statsmodels.sandbox.regression.predstd import wls_prediction_std
 
 
@@ -173,33 +172,24 @@ def main():
     y = issueForGlobalModel
     X = np.array([callGraphForGlobalModel,classSizeForGlobalModel]).transpose()
     X = list([list(i) for i in X])
+    X = sm.add_constant(X,prepend=False)
     model = sm.OLS(y, X)
     results = model.fit()
-    print(results.summary(yname="issues", xname =("APIcalls", "ClassSize")))
-    print(results.summary2(yname="issues", xname =("APIcalls", "ClassSize")))
+    print(results.summary(yname="issues", xname =("APIcalls", "ClassSize", "const")))
 
-
-    prstd, iv_l, iv_u = wls_prediction_std(results)
-
-    fig, ax = plt.subplots(figsize=(8,6))
-
-    ax.plot(X, y, 'o', label="data")
-    #ax.plot(X, y_true, 'b-', label="True")
-    ax.plot(X, results.fittedvalues, 'r--.', label="OLS")
-    ax.plot(X, iv_u, 'r--')
-    ax.plot(X, iv_l, 'r--')
-    ax.legend(loc='best');
 
     print("API CALLS only")
-    model2 = sm.OLS(y, callGraphForGlobalModel)
+    X = callGraphForGlobalModel
+    X = sm.add_constant(X,prepend=False)
+    model2 = sm.OLS(y, X)
     results = model2.fit()
-    print(results.summary(yname="issues"))
-    print(results.summary2(yname="issues", xname ="APIcalls"))
+    print(results.summary(yname="issues",xname =["APIcalls","const"]))
     print("Size only")
-    model3 = sm.OLS(y, classSizeForGlobalModel)
+    X = classSizeForGlobalModel
+    X = sm.add_constant(X,prepend=False)
+    model3 = sm.OLS(y, X)
     results = model3.fit()
-    print(results.summary(yname="issues", xname ="ClassSize"))
-    print(results.summary2(yname="issues", xname ="ClassSize"))
+    print(results.summary(yname="issues",xname =["ClassSize","const"]))
 
 if __name__ == '__main__':
     main()
